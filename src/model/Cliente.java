@@ -32,12 +32,8 @@ public class Cliente {
 	}
 	@Override
 	public String toString() {
-		return nome + ";" + idade + ";" + limiteCredito;
+	    return nome + ";" + cpf + ";" + idade + ";" + limiteCredito;
 	}
-	
-	
-	
-
 	
 	
 }
